@@ -1,0 +1,26 @@
+{
+  "name": "pnpm-react-emotion-example",
+  "version": "1.0.0",
+  "description": "Example of a problem using pnpm with TypeScript and react-emotion",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elliottsj/pnpm-react-emotion-example.git"
+  },
+  "author": "Spencer Elliott <me@elliottsj.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elliottsj/pnpm-react-emotion-example/issues"
+  },
+  "homepage": "https://github.com/elliottsj/pnpm-react-emotion-example#readme",
+  "dependencies": {
+    "emotion": "^9.2.12",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.2",
+    "react-emotion": "^9.2.12",
+    "typescript": "^3.1.2"
+  }
+}
