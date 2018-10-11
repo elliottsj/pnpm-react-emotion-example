@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/elliottsj/pnpm-react-emotion-example#readme",
   "dependencies": {
+    "@types/react": "^16.4.16",
     "emotion": "^9.2.12",
     "prop-types": "^15.6.2",
     "react": "^16.5.2",

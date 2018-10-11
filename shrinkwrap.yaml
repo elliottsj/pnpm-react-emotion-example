@@ -1,4 +1,5 @@
 dependencies:
+  '@types/react': 16.4.16
   emotion: 9.2.12
   prop-types: 15.6.2
   react: 16.5.2
@@ -65,6 +66,17 @@ packages:
     dev: false
     resolution:
       integrity: sha512-rLu3wcBWH4P5q1CGoSSH/i9hrXs7SlbRLkoq9IGuoPYNGQvDJ3pt/wmOM+XgYjIDRMVIdkUWt0RsfzF50JfnCw==
+  /@types/prop-types/15.5.6:
+    dev: false
+    resolution:
+      integrity: sha512-ZBFR7TROLVzCkswA3Fmqq+IIJt62/T7aY/Dmz+QkU7CaW2QFqAitCE8Ups7IzmGhcN1YWMBT4Qcoc07jU9hOJQ==
+  /@types/react/16.4.16:
+    dependencies:
+      '@types/prop-types': 15.5.6
+      csstype: 2.5.7
+    dev: false
+    resolution:
+      integrity: sha512-lxyoipLWweAnLnSsV4Ho2NAZTKKmxeYgkTQ6PaDiPDU9JJBUY2zJVVGiK1smzYv8+ZgbqEmcm5xM74GCpunSEA==
   /abbrev/1.1.1:
     dev: false
     resolution:
@@ -349,6 +361,7 @@ registry: 'https://registry.npmjs.org/'
 shrinkwrapMinorVersion: 9
 shrinkwrapVersion: 3
 specifiers:
+  '@types/react': ^16.4.16
   emotion: ^9.2.12
   prop-types: ^15.6.2
   react: ^16.5.2
